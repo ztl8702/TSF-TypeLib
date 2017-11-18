@@ -35,8 +35,12 @@
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>TSF-TypeLib.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
+    <None Include="TSF-TypeLib.snk" />
     <None Include="TSF.TypeLib.nuspec">
       <SubType>Designer</SubType>
     </None>
